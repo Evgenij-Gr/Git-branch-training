@@ -4,4 +4,5 @@ def basicFunction(arg1):
 
 def funcFeatureB(arg1, arg2, arg3):
     print("It is a funcFeatureB call")
-    print(f"This function call got three arguments: {arg1}, {arg2} and {arg3}")
+    print(f"This function call got three arguments: {arg1} ({type(arg1) = }),"
+          f" {arg2} ({type(arg2) = }) and {arg3} ({type(arg3) = })")
