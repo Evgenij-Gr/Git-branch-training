@@ -3,3 +3,4 @@ def basicFunction(arg1):
 
 def funcFeatureA(arg1):
     print(f"This is a funcFeatureA and it got {arg1} as an argument")
+    print(f"Also argument has type {type(arg1)}")
